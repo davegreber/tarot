@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>21cTarot : A unique interactive tarot experience</title>
@@ -8,7 +8,11 @@
         <meta name="theme-color" content="#000" />
         <link rel="stylesheet" href="style.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        
     </head>
+    <header>
+
+    </header>
     <body>
         <nav class="navbar navbar-expand navbar-dark" style="background-color: blueviolet;">
             <div class="container">
@@ -25,19 +29,26 @@
         </nav>
         <div class="container">
             <div class="justify-content-center align-items-center">
-                <div class="text-center">
-                    <label for="question" class="form-label text-light" >What would you like to ask?</label>
-                    <input type="text" id="question" class="form-control text-light">
-                    <p class="text-light bg-danger">ask nicely</p>
-                    <button class="btn btn-primary btn-customized" id="generate-button">Deal Card</button>
-                    <br><br>
-                    <div class="justify-content-center align-items-center">
-                        <img id="random-image" style="display: none; width: 50vw; ">
+                
+                <form>
+                    <div class="text-center">
+                        <h1 class=text-light>21cTarot!</h1>
+                        <label for="question" class="form-label text-light" >What would you like to ask?</label>
+                        <input type="text" id="question" class="form-control text-light">
+                        <p class="text-light bg-danger">ask nicely</p>
+                        <button class="btn btn-primary btn-customized"  id="generate-button">Deal Card</button>
                     </div>
+                </form>
+                <div id="images" >
+                    <img id="random-image" style="display: none;">
                 </div>
             </div>
+                <p>********$*$*#*#**@***D*D*D*</p>
+            </div>
         </div>
+        
         <script src="script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
+
